@@ -1,0 +1,83 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+body{
+    background-color: palevioletred;
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+}
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 4rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    position: fixed ;
+    background-color: aquamarine;
+    color: green;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+    z-index: 1;
+}
+.calc{
+    width: fit-content;
+    background-color:white;
+    border-radius: 1rem;
+}
+.buttons{
+    border: 0.02rem solid burlywood;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color:peachpuff;
+}
+.row{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+button{
+    flex: 1;
+    width: 2rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    margin: 0.2rem 0.2rem 0.2rem 0.2rem;
+    border-radius: 0.25rem;
+    border: 0.02rem solid black;
+    background-color: beige;
+    padding: 0.02rem 0.02rem 0.02rem 0.02rem ;
+}
+.display{
+    background-color: lightgray;
+    text-align: right;
+    height: 3rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    padding-right: 0.25rem;
+    border: 0.02rem solid black;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    color: black;
+    font-weight: bold;
+}
+button:active {
+    box-shadow: inset 0 0 5px #666;
+    transform: scale(0.97);
+}
+button:hover{
+    cursor: pointer;
+}
+button:focus {
+    outline: 2px solid dodgerblue;
+}
